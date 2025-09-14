@@ -1,0 +1,33 @@
+# Ставки и параметры продуктов + категории
+currency_symbol: "₸"
+
+rates:
+  travel_cashback: 0.04
+  premium:
+    base_default: 0.02
+    base_mid: 0.03     # 1–6 млн
+    base_high: 0.04    # >= 6 млн
+    boosted_categories_rate: 0.04
+    cashback_cap_month: 100000
+  credit_card:
+    fav_rate: 0.10     # топ-3 категории
+    online_rate: 0.10  # онлайн услуги
+  fx_saving_rate: 0.005
+  deposits:
+    multi: 0.145
+    save: 0.165
+    accum: 0.155
+
+categories:
+  travel: ["Путешествия", "Такси", "Отели"]
+  premium_boosted: ["Кафе и рестораны", "Ювелирные украшения", "Косметика и Парфюмерия"]
+  online: ["Смотрим дома", "Играем дома", "Едим дома", "Кино"]
+
+cta:
+  travel: "Открыть карту"
+  premium: "Оформить сейчас"
+  credit: "Оформить карту"
+  fx: "Настроить обмен"
+  deposit: "Открыть вклад"
+  invest: "Открыть счёт"
+  gold: "Посмотреть варианты"
